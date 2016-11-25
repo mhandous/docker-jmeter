@@ -1,5 +1,5 @@
 FROM fedora:23
-RUN clear
+
 RUN dnf -y update
 RUN dnf -y install wget
 RUN dnf -y install tar
