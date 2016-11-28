@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    jmeter:
+        image: jmeter
+        container_name: jmeter_web_flask_mehdi
+        build: .
+        volumes:
+            - ./results:/results
