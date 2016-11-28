@@ -1,0 +1,6 @@
+version: '2'
+
+service:
+    jmeter:
+    image: jmeter
+    
